@@ -2495,7 +2495,7 @@ if not DevAbs:get(HASSAN.."Abs:Lock:Kfr"..msg.chat_id_) and not VipMem(msg) then
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
 ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙ممنوع الكفر في المجموعه") 
 end end
-if text and (text:match("سني نكس") or text:match("شيعه") or text:match("الشيعه") or text:match("السنه") or text:match("طائفتكم") or text:match("شيعي") or text:match("انا سني") or text:match("مسيحي") or text:match("يهودي") or text:match("صابئي") or text:match("ملحد") or text:match("بالسنه") or text:match("شيعة")) then
+if text and (text:match("سني نكس") or text:match("عائشة زانية") or text:match("لعن الله عمر") or text:match("اشرف من عمر") or text:match("لعن الله ابو بكر") or text:match("لعن الله عثمان") or text:match("لعن الله عائشة") or text:match("لعن الله عائشه") or text:match("عيوشه") or text:match("عيوشة") or text:match("لعن الله خالد") or text:match("لعن الله حفصه") or text:match("عائشه زانيه")) then
 if not DevAbs:get(HASSAN.."Abs:Lock:Taf"..msg.chat_id_) and not VipMem(msg) then
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
 ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙ممنوع التكلم بالطائفيه هنا") 
