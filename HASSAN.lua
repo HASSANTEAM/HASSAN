@@ -2480,12 +2480,12 @@ if not DevAbs:get(HASSAN.."Abs:Lock:Fshar"..msg.chat_id_) and not VipMem(msg) th
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
 ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙ممنوع الفشار في المجموعه")  
 end end
-if text and (text:match("ڬ") or text:match("ٺ") or text:match("چ") or text:match("ڇ") or text:match("ڿ") or text:match("ڀ") or text:match("ڎ") or text:match("ݫ") or text:match("ژ") or text:match("ڟ") or text:match("ݜ") or text:match("ڸ") or text:match("پ") or text:match("۴") or text:match("مک") or text:match("زدن") or text:match("عمر منيوج") or text:match("عمر ديوث") or text:match("رضاع الرجال") or text:match("رضاعة") or text:match("مرضعة") or text:match("مرضعه") or text:match("نزل بعائشه") or text:match("نزل بعائشة") or text:match("لعن الله هند") or text:match("اكلت الاكباد") or text:match("معاويه يشرب خمر") or text:match("معاوية يشرب خمر") or text:match("يزيد يشرب الخمر") or text:match("لعن الله ابوبكر") or text:match("عمر منكوح")) then
+if text and (text:match("ڬ") or text:match("ٺ") or text:match("چ") or text:match("ڇ") or text:match("ڿ") or text:match("ڀ") or text:match("ڎ") or text:match("ݫ") or text:match("ژ") or text:match("ڟ") or text:match("ݜ") or text:match("ڸ") or text:match("پ") or text:match("۴") or text:match("مک") or text:match("زدن") or text:match("عمر منيوج") or text:match("عمر ديوث") or text:match("رضاع الرجال") or text:match("رضاعة") or text:match("مرضعة") or text:match("مرضعه") or text:match("نزل بعائشه") or text:match("نزل بعائشة") or text:match("لعن الله هند") or text:match("اكلت الاكباد هند") or text:match("معاويه يشرب خمر") or text:match("معاوية يشرب عرك") or text:match("يزيد يشرب عرك") or text:match("لعن الله ابوبكر") or text:match("عمر منكوح")) then
 if DevAbs:get(HASSAN.."Abs:Lock:Farsi"..msg.chat_id_) and not VipMem(msg) then
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
 ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙يا رافضي يا كلب لا تسب تاج رأسك ورأس نرجس المتمتعة يا عفير هذا الذي قمت بسبه نعله يشرفك انت وبلدك يا ابن المتعة يا حيوان")  
 end end
-if text and (text:match("رضاع الزلم") or text:match("لعنالله ابوبكر") or text:match("لعنت الله ابن صهاك") or text:match(" ابن صهاك منكوح") or text:match("صهاكك") or text:match("رجل نزل بعائشة") or text:match("ممية") or text:match("مميه") or text:match("عمر منكوح") or text:match(" ") or text:match("عمر منافق") or text:match("معاويه يشرب ") or text:match("يزيد يشرب ") or text:match("نزل بعائشه") or text:match("مک") or text:match("زدن") or text:match("دخترا") or text:match("دیوث") or text:match("کلیپشن") or text:match("خوششون") or text:match("میدا") or text:match("که") or text:match("بدانیم") or text:match("باید") or text:match("زناشویی") or text:match("آموزش") or text:match("راحتی") or text:match("خسته") or text:match("بیام") or text:match("بپوشم") or text:match("كرمه")) then
+if text and (text:match("رضاع الزلم") or text:match("لعنالله ابوبكر") or text:match("لعنت الله ابن صهاك") or text:match(" ابن صهاك منكوح") or text:match("صهاك") or text:match("رجل نزل بعائشة") or text:match("ممية") or text:match("مميه") or text:match("عمر منكوح") or text:match("لعن الله ال اميه") or text:match("عمر منافق") or text:match("معاويه يحتسي الخمر ") or text:match("يزيد يحتسي الخمر") or text:match("نزل بعائشه") or text:match("مک") or text:match("زدن") or text:match("دخترا") or text:match("دیوث") or text:match("کلیپشن") or text:match("خوششون") or text:match("میدا") or text:match("که") or text:match("بدانیم") or text:match("باید") or text:match("زناشویی") or text:match("آموزش") or text:match("راحتی") or text:match("خسته") or text:match("بیام") or text:match("بپوشم") or text:match("كرمه")) then
 if DevAbs:get(HASSAN.."Abs:Lock:FarsiBan"..msg.chat_id_) and not VipMem(msg) then
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
 ChatKick(msg.chat_id_, msg.sender_user_id_)
@@ -5439,19 +5439,19 @@ getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
 end end
 --     Source HASSAN     --
 if msg.reply_to_message_id_ ~= 0 then
-if text and text:match("^رفع ضرطه$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+if text and text:match("^رفع زرارة ابو الضراط$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
 function donky_by_reply(extra, result, success)
-ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم رفعه ضرطه بنجاح") 
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم رفعه زرارةابو الضراط بنجاح") 
 DevAbs:sadd(HASSAN..'User:Don12345:'..msg.chat_id_, result.sender_user_id_)
 end
 getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
 end end
 --     Source HASSAN     --
 if msg.reply_to_message_id_ ~= 0  then
-if text and text:match("^تنزيل ضرطه$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+if text and text:match("^تنزيل زرارة ابو الضراط$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
 function donky_by_reply(extra, result, success)
 DevAbs:srem(HASSAN..'User:Don12345:'..msg.chat_id_, result.sender_user_id_)
-ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم تنزيله ضرطه بنجاح") 
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم تنزيله زرارة ابو الضراط بنجاح") 
 end
 getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
 end end
@@ -5848,9 +5848,9 @@ text = "⌁︙*لا يوجد لطامه هنا* 😹💔"
 end
 Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, "md")
 end
-if text == "الضراط" and ChCheck(msg) or text == "الضراط" and ChCheck(msg) then
+if text == "زرارة ابو الضراط" and ChCheck(msg) or text == "الضراط" and ChCheck(msg) then
 local List = DevAbs:smembers(HASSAN..'User:Don12345:'..msg.chat_id_)
-text = "⌁︙قائمة الضراط 😹💔 ↫ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
+text = "⌁︙قائمة زرارة ابو الضراط 😹💔 ↫ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
 for k,v in pairs(List) do
 local username = DevAbs:get(HASSAN..'Save:UserName'..v)
 if username then
@@ -5859,7 +5859,7 @@ else
 text = text..""..k.."~ : `"..v.."`\n"
 end end
 if #List == 0 then
-text = "⌁︙*لا يوجد الضراط هنا* 😹💔"
+text = "⌁︙*لا يوجد زرارة ابو الضراط هنا* 😹💔"
 end
 Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, "md")
 end
@@ -9528,7 +9528,7 @@ local text =  [[
 ⌁︙رفع • تنزيل ↫ شيعي
 ⌁︙الشيعة • حذف الشيعة
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙رفع • تنزيل ↫ ضرطه
+⌁︙رفع • تنزيل ↫ زرارة ابو الضراط
 ⌁︙الضراط • حذف الضراط
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
 ⌁︙رفع • تنزيل ↫ وهابي
