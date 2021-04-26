@@ -2490,15 +2490,15 @@ if DevAbs:get(HASSAN.."Abs:Lock:FarsiBan"..msg.chat_id_) and not VipMem(msg) the
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
 ChatKick(msg.chat_id_, msg.sender_user_id_)
 end end 
-if text and (text:match("خره بالله") or text:match("خبربك") or text:match("كسدينربك") or text:match("خرب بالله") or text:match("خرب الله") or text:match("خره بربك") or text:match("الله الكواد") or text:match("خره بمحمد") or text:match("كسم الله") or text:match("كسم ربك") or text:match("كسربك") or text:match("كسختالله") or text:match("كسخت الله") or text:match("خره بدينك") or text:match("خرهبدينك") or text:match("كسالله") or text:match("خربالله")) then
+if text and (text:match("لعن الله ال امية") or text:match("عائشة نكحوها") or text:match("عائشه تنكح") or text:match("عائشة تنكح") or text:match("لعن الله ابن تيمية") or text:match("لعن الله العمرية") or text:match("ابناء رضاع الكبير") or text:match("امكم مرضعة الكبار") or text:match("لعنت الله عليكم يا ابناء عائشة") or text:match("عائشة قحبه") or text:match("عائشة كحبه") or text:match("عائشه كحبه") or text:match("عائشة كحبة") or text:match("لعن الله ابو هريرة") or text:match("لعن الله خالد ابن الوليد") or text:match("لعن الله خالد") or text:match("لعن الله ابن تيمية")) then
 if not DevAbs:get(HASSAN.."Abs:Lock:Kfr"..msg.chat_id_) and not VipMem(msg) then
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
-ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙ممنوع الكفر في المجموعه") 
+ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙يا رافضي يا كلب لا تسب تاج رأسك ورأس نرجس المتمتعة يا عفير هذا الذي قمت بسبه نعله يشرفك انت وبلدك يا ابن المتعة يا حيوان") 
 end end
-if text and (text:match("سني نكس") or text:match("شيعه") or text:match("الشيعه") or text:match("السنه") or text:match("طائفتكم") or text:match("شيعي") or text:match("انا سني") or text:match("مسيحي") or text:match("يهودي") or text:match("صابئي") or text:match("ملحد") or text:match("بالسنه") or text:match("شيعة")) then
+if text and (text:match("بكس عائشة") or text:match("عير بعائشة") or text:match("لعن الله عمر") or text:match("لعن الله عثمان") or text:match("لعن الله ابو بكر") or text:match("لعن الله معاوية") or text:match("لعن الله يزيد") or text:match("لعن الله عائشة") or text:match("لعن الله عائشه") or text:match("لعنت الله على عائشه") or text:match("عيوشه") or text:match("عيوشة") or text:match("لعنت الله على عاىشة")) then
 if not DevAbs:get(HASSAN.."Abs:Lock:Taf"..msg.chat_id_) and not VipMem(msg) then
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
-ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙ممنوع التكلم بالطائفيه هنا") 
+ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙يا رافضي يا كلب لا تسب تاج رأسك ورأس نرجس المتمتعة يا عفير هذا الذي قمت بسبه نعله يشرفك انت وبلدك يا ابن المتعة يا حيوان") 
 end end
 if SecondSudo(msg) then
 if text == 'جلب نسخه الكروبات' and ChCheck(msg) or text == 'جلب نسخه احتياطيه' and ChCheck(msg) then
