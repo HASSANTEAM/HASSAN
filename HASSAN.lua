@@ -2490,7 +2490,7 @@ if DevAbs:get(HASSAN.."Abs:Lock:FarsiBan"..msg.chat_id_) and not VipMem(msg) the
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
 ChatKick(msg.chat_id_, msg.sender_user_id_)
 end end 
-if text and (text:match("لعن الله ال امية") or text:match("عائشة نكحوها") or text:match("عائشه تنكح") or text:match("عائشة تنكح") or text:match("لعن الله ابن تيمية") or text:match("لعن الله العمرية") or text:match("ابناء رضاع الكبير") or text:match("امكم مرضعة الكبار") or text:match("لعنت الله عليكم يا ابناء عائشة") or text:match("عائشة قحبه") or text:match("عائشة كحبه") or text:match("عائشه كحبه") or text:match("عائشة كحبة") or text:match("لعن الله ابو هريرة") or text:match("لعن الله خالد ابن الوليد") or text:match("لعن الله خالد") or text:match("لعن الله ابن تيمية")) then
+if text and (text:match("لعن الله ال امية") or text:match("صهاك") or text:match("يزيد يشرب الخمر") or text:match("عمر منافق") or text:match("لعن الله ابن تيمية") or text:match("اكلت الاكباد") or text:match("ابناء رضاع الكبير") or text:match("امكم مرضعة الكبار") or text:match("لعنت الله عليكم يا ابناء عائشة") or text:match("عائشة قحبه") or text:match("عائشة كحبه") or text:match("عائشه كحبه") or text:match("عائشة كحبة") or text:match("لعن الله ابو هريرة") or text:match("لعن الله خالد ابن الوليد") or text:match("لعن الله خالد") or text:match("لعن الله ابن تيمية")) then
 if not DevAbs:get(HASSAN.."Abs:Lock:Kfr"..msg.chat_id_) and not VipMem(msg) then
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
 ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙يا رافضي يا كلب لا تسب تاج رأسك ورأس نرجس المتمتعة يا عفير هذا الذي قمت بسبه نعله يشرفك انت وبلدك يا ابن المتعة يا حيوان") 
