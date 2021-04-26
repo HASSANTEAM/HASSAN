@@ -5304,6 +5304,159 @@ end,nil)
 return false
 end
 end
+--     Source HASSAN     --
+if Admin(msg) then
+if msg.reply_to_message_id_ ~= 0 then
+if text and text:match("^رفع مطي$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+function donky_by_reply(extra, result, success)
+if DevAbs:sismember(HASSAN..'User:Donky:'..msg.chat_id_, result.sender_user_id_) then
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙هو مطي شرفع منه بعد😹💔") 
+else
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم رفعه في قائمة المطايه") 
+DevAbs:sadd(HASSAN..'User:Donky:'..msg.chat_id_, result.sender_user_id_)
+end end
+getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
+end end
+--     Source HASSAN     --
+if msg.reply_to_message_id_ ~= 0  then
+if text and text:match("^تنزيل مطي$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+function donky_by_reply(extra, result, success)
+if not DevAbs:sismember(HASSAN..'User:Donky:'..msg.chat_id_, result.sender_user_id_) then
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙هو ليس مطي ليتم تنزيله") 
+else
+DevAbs:srem(HASSAN..'User:Donky:'..msg.chat_id_, result.sender_user_id_)
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم تنزيله من قائمة المطايه") 
+end end
+getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
+end end
+--     Source HASSAN     --
+if msg.reply_to_message_id_ ~= 0 then
+if text and (text:match("^رفع ابن متعه$") or text:match("^رفع ابن متعة$")) and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+function donky_by_reply(extra, result, success)
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم رفعه ابن متعه بنجاح") 
+DevAbs:sadd(HASSAN..'User:Don:'..msg.chat_id_, result.sender_user_id_)
+end
+getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
+end end
+--     Source HASSAN     --
+if msg.reply_to_message_id_ ~= 0  then
+if text and (text:match("^تنزيل ابن متعه$") or text:match("^تنزيل ابن متعة$")) and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+function donky_by_reply(extra, result, success)
+DevAbs:srem(HASSAN..'User:Don:'..msg.chat_id_, result.sender_user_id_)
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم تنزيله ابن متعه بنجاح") 
+end
+getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
+end end
+--     Source HASSAN     --
+if msg.reply_to_message_id_ ~= 0 then
+if text and text:match("^رفع عفير$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+function donky_by_reply(extra, result, success)
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم رفعه عفير بنجاح") 
+DevAbs:sadd(HASSAN..'User:Don1:'..msg.chat_id_, result.sender_user_id_)
+end
+getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
+end end
+--     Source HASSAN     --
+if msg.reply_to_message_id_ ~= 0  then
+if text and text:match("^تنزيل عفير$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+function donky_by_reply(extra, result, success)
+DevAbs:srem(HASSAN..'User:Don1:'..msg.chat_id_, result.sender_user_id_)
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم تنزيله عفير بنجاح") 
+end
+getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
+end end
+--     Source HASSAN     --
+if msg.reply_to_message_id_ ~= 0 then
+if text and text:match("^رفع مهتدي$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+function donky_by_reply(extra, result, success)
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم رفعه مهتدي بنجاح") 
+DevAbs:sadd(HASSAN..'User:Don12:'..msg.chat_id_, result.sender_user_id_)
+end
+getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
+end end
+--     Source HASSAN     --
+if msg.reply_to_message_id_ ~= 0  then
+if text and text:match("^تنزيل مهتدي$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+function donky_by_reply(extra, result, success)
+DevAbs:srem(HASSAN..'User:Don12:'..msg.chat_id_, result.sender_user_id_)
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم تنزيله مهتدي بنجاح") 
+end
+getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
+end end
+--     Source HASSAN     --
+if msg.reply_to_message_id_ ~= 0 then
+if text and text:match("^رفع شيعي$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+function donky_by_reply(extra, result, success)
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم رفعه شيعي بنجاح") 
+DevAbs:sadd(HASSAN..'User:Don124:'..msg.chat_id_, result.sender_user_id_)
+end
+getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
+end end
+--     Source HASSAN     --
+if msg.reply_to_message_id_ ~= 0  then
+if text and text:match("^تنزيل شيعي$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+function donky_by_reply(extra, result, success)
+DevAbs:srem(HASSAN..'User:Don124:'..msg.chat_id_, result.sender_user_id_)
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم تنزيله شيعي بنجاح") 
+end
+getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
+end end
+--     Source HASSAN     --
+if msg.reply_to_message_id_ ~= 0 then
+if text and text:match("^رفع وهابي$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+function donky_by_reply(extra, result, success)
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم رفعه وهابي بنجاح") 
+DevAbs:sadd(HASSAN..'User:Don123:'..msg.chat_id_, result.sender_user_id_)
+end
+getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
+end end
+--     Source HASSAN     --
+if msg.reply_to_message_id_ ~= 0  then
+if text and text:match("^تنزيل وهابي$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+function donky_by_reply(extra, result, success)
+DevAbs:srem(HASSAN..'User:Don123:'..msg.chat_id_, result.sender_user_id_)
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم تنزيله وهابي بنجاح") 
+end
+getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
+end end
+--     Source HASSAN     --
+if msg.reply_to_message_id_ ~= 0 then
+if text and text:match("^رفع لطام$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+function donky_by_reply(extra, result, success)
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم رفعه لطام بنجاح") 
+DevAbs:sadd(HASSAN..'User:Don1234:'..msg.chat_id_, result.sender_user_id_)
+end
+getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
+end end
+--     Source HASSAN     --
+if msg.reply_to_message_id_ ~= 0  then
+if text and text:match("^تنزيل لطام$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+function donky_by_reply(extra, result, success)
+DevAbs:srem(HASSAN..'User:Don1234:'..msg.chat_id_, result.sender_user_id_)
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم تنزيله لطام بنجاح") 
+end
+getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
+end end
+--     Source HASSAN     --
+if msg.reply_to_message_id_ ~= 0 then
+if text and text:match("^رفع ضرطه$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+function donky_by_reply(extra, result, success)
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم رفعه ضرطه بنجاح") 
+DevAbs:sadd(HASSAN..'User:Don12345:'..msg.chat_id_, result.sender_user_id_)
+end
+getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
+end end
+--     Source HASSAN     --
+if msg.reply_to_message_id_ ~= 0  then
+if text and text:match("^تنزيل ضرطه$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+function donky_by_reply(extra, result, success)
+DevAbs:srem(HASSAN..'User:Don12345:'..msg.chat_id_, result.sender_user_id_)
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم تنزيله ضرطه بنجاح") 
+end
+getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
+end end
+--     Source HASSAN     --
+end
 if Admin(msg) then
 if text and (text:match('^تقييد دقيقه (%d+)$') or text:match('^كتم دقيقه (%d+)$') or text:match('^تقيد دقيقه (%d+)$')) and ChCheck(msg) then 
 local function mut_time(extra, result,success)
@@ -5590,7 +5743,6 @@ text = "⌁︙لا توجد كلمات ممنوعه"
 end
 Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, 'md')
 end
-end 
 if text == "المطايه" and ChCheck(msg) or text == "المطاية" and ChCheck(msg) then
 local List = DevAbs:smembers(HASSAN..'User:Donky:'..msg.chat_id_)
 text = "⌁︙قائمة مطاية المجموعه 😹💔 ↫ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
@@ -5606,6 +5758,112 @@ text = "⌁︙*لا يوجد مطايه كلها اوادم* 😹💔"
 end
 Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, "md")
 end
+if text == "أبناء المتعة" and ChCheck(msg) or text == "ابناء المتعه" and ChCheck(msg) then
+local List = DevAbs:smembers(HASSAN..'User:Don:'..msg.chat_id_)
+text = "⌁︙قائمة أبناء المتعة 😹💔 ↫ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
+for k,v in pairs(List) do
+local username = DevAbs:get(HASSAN..'Save:UserName'..v)
+if username then
+text = text..""..k.."~ : [@"..username.."]\n"
+else
+text = text..""..k.."~ : `"..v.."`\n"
+end end
+if #List == 0 then
+text = "⌁︙*لا يوجد أبناء متعة* 😹💔"
+end
+Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, "md")
+end
+if text == "العفيريين" and ChCheck(msg) or text == "العفيرين" and ChCheck(msg) then
+local List = DevAbs:smembers(HASSAN..'User:Don1:'..msg.chat_id_)
+text = "⌁︙قائمة العفيريين 😹💔 ↫ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
+for k,v in pairs(List) do
+local username = DevAbs:get(HASSAN..'Save:UserName'..v)
+if username then
+text = text..""..k.."~ : [@"..username.."]\n"
+else
+text = text..""..k.."~ : `"..v.."`\n"
+end end
+if #List == 0 then
+text = "⌁︙*لا يوجد عفيريين* 😹💔"
+end
+Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, "md")
+end
+if text == "المهتدين" and ChCheck(msg) then
+local List = DevAbs:smembers(HASSAN..'User:Don12:'..msg.chat_id_)
+text = "⌁︙قائمة المهتدين 😹💔 ↫ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
+for k,v in pairs(List) do
+local username = DevAbs:get(HASSAN..'Save:UserName'..v)
+if username then
+text = text..""..k.."~ : [@"..username.."]\n"
+else
+text = text..""..k.."~ : `"..v.."`\n"
+end end
+if #List == 0 then
+text = "⌁︙*لا يوجد مهتدين* 😹💔"
+end
+Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, "md")
+end
+if text == "الشيعة" and ChCheck(msg) or text == "الشيعه" and ChCheck(msg) then
+local List = DevAbs:smembers(HASSAN..'User:Don124:'..msg.chat_id_)
+text = "⌁︙قائمة الشيعه 😹💔 ↫ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
+for k,v in pairs(List) do
+local username = DevAbs:get(HASSAN..'Save:UserName'..v)
+if username then
+text = text..""..k.."~ : [@"..username.."]\n"
+else
+text = text..""..k.."~ : `"..v.."`\n"
+end end
+if #List == 0 then
+text = "⌁︙*لا يوجد شيعه هنا* 😹💔"
+end
+Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, "md")
+end
+if text == "الوهابية" and ChCheck(msg) or text == "الوهابيه" and ChCheck(msg) then
+local List = DevAbs:smembers(HASSAN..'User:Don123:'..msg.chat_id_)
+text = "⌁︙قائمة الوهابيه 😹💔 ↫ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
+for k,v in pairs(List) do
+local username = DevAbs:get(HASSAN..'Save:UserName'..v)
+if username then
+text = text..""..k.."~ : [@"..username.."]\n"
+else
+text = text..""..k.."~ : `"..v.."`\n"
+end end
+if #List == 0 then
+text = "⌁︙*لا يوجد وهابيه هنا* 😹💔"
+end
+Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, "md")
+end
+if text == "اللطامه" and ChCheck(msg) or text == "اللطامة" and ChCheck(msg) then
+local List = DevAbs:smembers(HASSAN..'User:Don1234:'..msg.chat_id_)
+text = "⌁︙قائمة اللطامه 😹💔 ↫ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
+for k,v in pairs(List) do
+local username = DevAbs:get(HASSAN..'Save:UserName'..v)
+if username then
+text = text..""..k.."~ : [@"..username.."]\n"
+else
+text = text..""..k.."~ : `"..v.."`\n"
+end end
+if #List == 0 then
+text = "⌁︙*لا يوجد لطامه هنا* 😹💔"
+end
+Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, "md")
+end
+if text == "الضراط" and ChCheck(msg) or text == "الضراط" and ChCheck(msg) then
+local List = DevAbs:smembers(HASSAN..'User:Don12345:'..msg.chat_id_)
+text = "⌁︙قائمة الضراط 😹💔 ↫ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
+for k,v in pairs(List) do
+local username = DevAbs:get(HASSAN..'Save:UserName'..v)
+if username then
+text = text..""..k.."~ : [@"..username.."]\n"
+else
+text = text..""..k.."~ : `"..v.."`\n"
+end end
+if #List == 0 then
+text = "⌁︙*لا يوجد الضراط هنا* 😹💔"
+end
+Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, "md")
+end
+end 
 if text == "المطورين الثانويين" and SecondSudo(msg) or text == "الثانويين" and SecondSudo(msg) then 
 local List = DevAbs:smembers(HASSAN..'Abs:SecondSudo:')
 text = "⌁︙قائمة المطورين الثانويين ↫ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
@@ -7440,6 +7698,34 @@ if txts[2] == 'المطايه' or txtss[2] == 'المطايه' then
 ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم حذف المطايه")  
 DevAbs:del(HASSAN..'User:Donky:'..msg.chat_id_)
 end
+if txts[2] == 'أبناء المتعة' or txtss[2] == 'ابناء المتعه' then
+ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم حذف أبناء المتعة")  
+DevAbs:del(HASSAN..'User:Don:'..msg.chat_id_)
+end
+if txts[2] == 'العفيريين' or txtss[2] == 'العفيريين' then
+ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم حذف العفيريين")  
+DevAbs:del(HASSAN..'User:Don1:'..msg.chat_id_)
+end
+if txts[2] == 'المهتدين' or txtss[2] == 'المهتدين' then
+ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم حذف المهتدين")  
+DevAbs:del(HASSAN..'User:Don12:'..msg.chat_id_)
+end
+if txts[2] == 'الشيعة' or txtss[2] == 'الشيعة' then
+ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم حذف الشيعة")  
+DevAbs:del(HASSAN..'User:Don124:'..msg.chat_id_)
+end
+if txts[2] == 'الوهابية' or txtss[2] == 'الوهابية' then
+ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم حذف المهتدين")  
+DevAbs:del(HASSAN..'User:Don123:'..msg.chat_id_)
+end
+if txts[2] == 'اللطامه' or txtss[2] == 'اللطامه' then
+ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم حذف اللطامه")  
+DevAbs:del(HASSAN..'User:Don1234:'..msg.chat_id_)
+end
+if txts[2] == 'الضراط' or txtss[2] == 'الضراط' then
+ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم حذف الضراط")  
+DevAbs:del(HASSAN..'User:Don12345:'..msg.chat_id_)
+end
 if txts[2] == 'الرابط' or txtss[2] == 'الرابط' then
 ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم حذف رابط المجموعه")  
 DevAbs:del(HASSAN.."Abs:Groups:Links"..msg.chat_id_)
@@ -9222,6 +9508,38 @@ local text =  [[
 ⌁︙[Source Channel](https://t.me/X_A_C_56)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (Help or text), 1, 'md')
+end
+if text == "اوامر التحشيش" then
+local text =  [[
+⌁︙اوامر التحشيش ↫ ⤈
+┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
+⌁︙رفع • تنزيل ↫ مطي
+⌁︙المطايه • حذف المطايه
+┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
+⌁︙رفع • تنزيل ↫ ابن متعة
+⌁︙أبناء المتعة • حذف أبناء المتعة
+┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
+⌁︙رفع • تنزيل ↫ عفير
+⌁︙العفيريين • حذف العفيريين
+┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
+⌁︙رفع • تنزيل ↫ مهتدي
+⌁︙المهتدين • حذف المهتدين
+┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
+⌁︙رفع • تنزيل ↫ شيعي
+⌁︙الشيعة • حذف الشيعة
+┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
+⌁︙رفع • تنزيل ↫ ضرطه
+⌁︙الضراط • حذف الضراط
+┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
+⌁︙رفع • تنزيل ↫ وهابي
+⌁︙الوهابية • حذف الوهابية
+┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
+⌁︙رفع • تنزيل ↫ لطام
+⌁︙اللطامه • حذف اللطامه
+┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
+⌁︙[Source Channel](https://t.me/X_A_C_56)
+]]
+Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, 'md')
 end
 if SecondSudo(msg) then
 if text == "تحديث السورس" or text == "تحديث سورس" then 
