@@ -1225,7 +1225,7 @@ end end
 if text == '/start' and ChCheck(msg) then  
 if not DevAbs:get(HASSAN..'Abs:Start:Time'..msg.sender_user_id_) then
 tdcli_function({ID="GetUser",user_id_=DevId},function(arg,dp) 
-local inline = {{{text="⌁ المطور .",url="t.me/"..(dp.username_ or "X_A_C_56")}}}
+local inline = {{{text="⌁ المطور .",url="t.me/"..(dp.username_ or "Ha_ssin")}}}
 local start = DevAbs:get(HASSAN.."Abs:Start:Bot")
 if start then 
 Start_Source = start
@@ -1240,7 +1240,7 @@ return false
 end 
 if not SecondSudo(msg) and not DevAbs:sismember(HASSAN..'Abs:Ban:Pv',msg.sender_user_id_) and not DevAbs:get(HASSAN..'Abs:Texting:Pv') then
 tdcli_function({ID="GetUser",user_id_=DevId},function(arg,chat) 
-Dev_Abs(msg.sender_user_id_, msg.id_, 1, '⌁︙تم ارسال رسالتك الى [المطور](t.me/'..(chat.username_ or "X_A_C_56")..')', 1, 'md') 
+Dev_Abs(msg.sender_user_id_, msg.id_, 1, '⌁︙تم ارسال رسالتك الى [المطور](t.me/'..(chat.username_ or "Ha_ssin")..')', 1, 'md') 
 tdcli_function({ID="ForwardMessages",chat_id_=DevId,from_chat_id_= msg.sender_user_id_,message_ids_={[0]=msg.id_},disable_notification_=1,from_background_=1},function(arg,data) 
 tdcli_function({ID="GetUser",user_id_=msg.sender_user_id_},function(arg,dp) 
 if data and data.messages_ and data.messages_[0] ~= false and data.ID ~= "Error" then
