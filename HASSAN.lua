@@ -618,7 +618,7 @@ end
 function ReplyStatus(msg,user_id,status,text)
 tdcli_function ({ID = "GetUser",user_id_ = user_id},function(arg,dp) 
 if dp.first_name_ ~= false then
-local UserName = (dp.username_ or "X_A_C_56")
+local UserName = (dp.username_ or "GO_XXO")
 for gmatch in string.gmatch(dp.first_name_, "[^%s]+") do
 dp.first_name_ = gmatch
 end
@@ -739,9 +739,9 @@ MsgText = 'خيالي'
 elseif tonumber(msgs) < 8000 then 
 MsgText = ' التفاعل' 
 elseif tonumber(msgs) < 9000 then 
-MsgText = ' بالتفاعل' 
+MsgText = 'بالتفاعل' 
 elseif tonumber(msgs) < 10000000000 then 
-MsgText = "معلك لربك" 
+MsgText = "معلك" 
 end 
 return MsgText
 end
