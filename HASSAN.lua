@@ -3692,15 +3692,15 @@ Dev_Abs(msg.chat_id_, msg.id_, 1, 'شو تمضرط اكو واحد يهين نف
 return false 
 end  
 if tonumber(result.id_) == tonumber(DevId) then 
-Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏', 1, 'md') 
+Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏😏', 1, 'md') 
 return false  
 end  
 if tonumber(result.id_) == tonumber(806201930) then 
-Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏', 1, 'md') 
+Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏😏', 1, 'md') 
 return false  
 end  
 if DevAbs:sismember(HASSAN.."Abs:AbsConstructor:"..msg.chat_id_,result.id_) then
-Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏', 1, 'md')
+Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏😏', 1, 'md')
 return false
 end 
 local HASSANTEAM = "صارر ستاذيي 🏃🏻‍♂️♥️" 
@@ -3733,7 +3733,7 @@ if DevAbs:sismember(HASSAN.."Abs:AbsConstructor:"..msg.chat_id_,result.sender_us
 Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md')
 return false
 end 
-local HASSANTEAM = "صارر ستاذيي 🏃🏻‍♂️♥️" 
+local HASSANTEAM = "صارر ستاذيي 🏃 
 Dev_Abs(msg.chat_id_, msg.id_, 1,HASSANTEAM, 1, 'md') 
 local HASSANTEAM = {"لكك جرجف احترم اسيادكك لا اكتلكك وازربب على كبركك،💩🖐🏿","هشش فاشل لتضل تمسلت لا اخربط تضاريس وجهك جنه ابط عبده، 😖👌🏿","دمشي لك ينبوع الفشل مو زين ملفيك ونحجي وياك هي منبوذ 😏🖕🏿","ها الغليض التفس ابو راس المربع متعلملك جم حجايه وجاي تطكطكهن علينه دبطل😒🔪","حبيبي راح احاول احترمكك هالمره بلكي تبطل حيونه، 🤔🔪"} 
 Dev_Abs(msg.chat_id_, result.id_, 1,''..HASSANTEAM[math.random(#HASSANTEAM)]..'', 1, 'md') 
@@ -3755,7 +3755,7 @@ if tonumber(result.sender_user_id_) == tonumber(DevId) then
 Dev_Abs(msg.chat_id_, result.id_, 1, 'مواححح احلاا بوسةة المطوريي😻🔥💗', 1, 'html')
 return false
 end 
-local HASSANTEAM = "صارر ستاذيي 🏃🏻‍♂️♥️" 
+local HASSANTEAM = "صارر ستاذيي 🏃♂️♥️" 
 Dev_Abs(msg.chat_id_, msg.id_, 1,HASSANTEAM, 1, 'md') 
 local HASSANTEAM = {"مواححح افيش عافيههه😍🔥💗","امممووااهحح شهلعسل🥺🍯💘","مواححح،ءوفف اذوب🤤💗"} 
 Dev_Abs(msg.chat_id_, result.id_, 1,''..HASSANTEAM[math.random(#HASSANTEAM)]..'', 1, 'md') 
@@ -3774,10 +3774,10 @@ Dev_Abs(msg.chat_id_, msg.id_, 1, 'فهمنيي شلوون راحح اصيح ن�
 return false  
 end  
 if tonumber(result.sender_user_id_) == tonumber(DevId) then  
-Dev_Abs(msg.chat_id_, result.id_, 1, 'تعال مطوريي محتاجيكك🏃🏻‍♂️♥️', 1, 'html')
+Dev_Abs(msg.chat_id_, result.id_, 1, 'تعال مطوريي محتاجيكك, 1, 'html')
 return false
 end 
-local HASSANTEAM = "صارر ستاذيي 🏃🏻‍♂️♥️" 
+local HASSANTEAM = "صار"
 Dev_Abs(msg.chat_id_, msg.id_, 1,HASSANTEAM, 1, 'md') 
 local HASSANTEAM = {"تتعال ححب محتاجيك🙂🍭","تعال يولل استاذكك ايريدككك😒🔪","يمعوود تعاال يريدوكك🤕♥️","تعال لكك ديصيحوك😐🖤"} 
 Dev_Abs(msg.chat_id_, result.id_, 1,''..HASSANTEAM[math.random(#HASSANTEAM)]..'', 1, 'md') 
@@ -3798,10 +3798,10 @@ Dev_Abs(msg.chat_id_, msg.id_, 1, 'فهمنيي شلوون راحح اصيح ن�
 return false 
 end  
 if tonumber(result.id_) == tonumber(DevId) then 
-Dev_Abs(msg.chat_id_, msg.id_, 1, 'تعال مطوريي محتاجيكك🏃🏻‍♂️♥️ @'..username, 1, 'html') 
+Dev_Abs(msg.chat_id_, msg.id_, 1, 'تعال مطوريي محتاجيكك @'..username, 1, 'html') 
 return false  
 end  
-local HASSANTEAM = "صارر ستاذيي 🏃🏻‍♂️♥️" 
+local HASSANTEAM = "صارر ستاذيي♥️" 
 Dev_Abs(msg.chat_id_, msg.id_, 1,HASSANTEAM, 1, 'md') 
 local HASSANTEAM = { "تتعال ححب @"..username.." محتاجيك🙂🍭","تعال يولل @"..username.." استاذكك ايريدككك😒🔪","يمعوود @"..username.." تعاال يريدوكك🤕♥️","تعال لكك @"..username.." ديصيحوك😐🖤",}
 Dev_Abs(msg.chat_id_, result.id_, 1,''..HASSANTEAM[math.random(#HASSANTEAM)]..'', 1, 'html') 
