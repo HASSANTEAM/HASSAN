@@ -727,7 +727,7 @@ MsgText = 'متفاعل'
 elseif tonumber(msgs) < 2000 then 
 MsgText = 'قمة التفاعل' 
 elseif tonumber(msgs) < 3000 then 
-MsgText = 'ملك التفاعل'  
+MsgText = ' التفاعل'  
 elseif tonumber(msgs) < 4000 then 
 MsgText = 'اسطورة التفاعل' 
 elseif tonumber(msgs) < 5000 then 
@@ -737,9 +737,9 @@ MsgText = 'يجدح جدح'
 elseif tonumber(msgs) < 7000 then 
 MsgText = 'خيالي' 
 elseif tonumber(msgs) < 8000 then 
-MsgText = 'رب التفاعل' 
+MsgText = ' التفاعل' 
 elseif tonumber(msgs) < 9000 then 
-MsgText = 'كافر بالتفاعل' 
+MsgText = ' بالتفاعل' 
 elseif tonumber(msgs) < 10000000000 then 
 MsgText = "معلك لربك" 
 end 
@@ -3379,7 +3379,7 @@ Dev_Abs(msg.chat_id_, msg.id_, 1,[[
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
 ⌁︙نقاطي • بيع نقاطي
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙[Source Channel](https://t.me/X_A_C_56)
+⌁︙[Source Channel](https://t.me/GO_XXO)
 ]], 1, 'md')
 else
 Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙عذرا الالعاب معطله في المجموعه', 1, 'md')
@@ -3692,15 +3692,15 @@ Dev_Abs(msg.chat_id_, msg.id_, 1, 'شو تمضرط اكو واحد يهين نف
 return false 
 end  
 if tonumber(result.id_) == tonumber(DevId) then 
-Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md') 
+Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏', 1, 'md') 
 return false  
 end  
 if tonumber(result.id_) == tonumber(806201930) then 
-Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md') 
+Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏', 1, 'md') 
 return false  
 end  
 if DevAbs:sismember(HASSAN.."Abs:AbsConstructor:"..msg.chat_id_,result.id_) then
-Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md')
+Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏', 1, 'md')
 return false
 end 
 local HASSANTEAM = "صارر ستاذيي 🏃🏻‍♂️♥️" 
@@ -4741,7 +4741,7 @@ if Admin(msg) then
 if text ==('طرد') and ChCheck(msg) then
 function KickReply(extra, result, success)
 if not Constructor(msg) and DevAbs:get(HASSAN.."Abs:Lock:KickBan"..msg.chat_id_) then 
-send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الطرد والحظر من قبل المنشئين')
+send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الطرد والحظر من قبل حسن')
 return false
 end
 if RankChecking(result.sender_user_id_, result.chat_id_) then
@@ -4769,7 +4769,7 @@ if text and text:match('^طرد @(.*)') and ChCheck(msg) then
 local username = text:match('^طرد @(.*)')
 function KickUser(extra,result,success)
 if not Constructor(msg) and DevAbs:get(HASSAN.."Abs:Lock:KickBan"..msg.chat_id_) then 
-send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الطرد والحظر من قبل المنشئين')
+send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الطرد والحظر من قبل حسن')
 return false
 end
 if result.id_ then
@@ -4797,7 +4797,7 @@ end
 if text and text:match('^طرد (%d+)') and ChCheck(msg) then
 local user = text:match('طرد (%d+)')
 if not Constructor(msg) and DevAbs:get(HASSAN.."Abs:Lock:KickBan"..msg.chat_id_) then 
-send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الطرد والحظر من قبل المنشئين')
+send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الطرد والحظر من قبل حسن')
 return false
 end
 if RankChecking(user, msg.chat_id_) then
@@ -4823,7 +4823,7 @@ if Admin(msg) then
 if text ==('حضر') or text ==('حظر') and ChCheck(msg) then
 function BanReply(extra, result, success)
 if not Constructor(msg) and DevAbs:get(HASSAN.."Abs:Lock:KickBan"..msg.chat_id_) then 
-send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الطرد والحظر من قبل المنشئين')
+send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الطرد والحظر من قبل حسن')
 return false
 end
 if RankChecking(result.sender_user_id_, result.chat_id_) then
@@ -4852,7 +4852,7 @@ if text and (text:match('^حضر @(.*)') or text:match('^حظر @(.*)')) and ChC
 local username = text:match('^حضر @(.*)') or text:match('^حظر @(.*)')
 function BanUser(extra,result,success)
 if not Constructor(msg) and DevAbs:get(HASSAN.."Abs:Lock:KickBan"..msg.chat_id_) then 
-send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الطرد والحظر من قبل المنشئين')
+send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الطرد والحظر من قبل حسن')
 return false
 end
 if result.id_ then
@@ -4881,7 +4881,7 @@ end
 if text and (text:match('^حضر (%d+)') or text:match('^حظر (%d+)')) and ChCheck(msg) then
 local user = text:match('حضر (%d+)') or text:match('حظر (%d+)')
 if not Constructor(msg) and DevAbs:get(HASSAN.."Abs:Lock:KickBan"..msg.chat_id_) then 
-send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الطرد والحظر من قبل المنشئين')
+send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الطرد والحظر من قبل حسن')
 return false
 end
 if RankChecking(user, msg.chat_id_) then
@@ -4937,7 +4937,7 @@ if Admin(msg) then
 if text ==('كتم') and ChCheck(msg) then
 function MuteReply(extra, result, success)
 if not Constructor(msg) and DevAbs:get(HASSAN.."Abs:Lock:MuteTked"..msg.chat_id_) then 
-send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الكتم والتقيد من قبل المنشئين')
+send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الكتم والتقيد من قبل حسن')
 return false
 end
 if RankChecking(result.sender_user_id_, result.chat_id_) then
@@ -4959,7 +4959,7 @@ if text and text:match('^كتم @(.*)') and ChCheck(msg) then
 local username = text:match('^كتم @(.*)')
 function MuteUser(extra,result,success)
 if not Constructor(msg) and DevAbs:get(HASSAN.."Abs:Lock:MuteTked"..msg.chat_id_) then 
-send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الكتم والتقيد من قبل المنشئين')
+send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الكتم والتقيد من قبل حسن')
 return false
 end
 if result.id_ then
@@ -4981,7 +4981,7 @@ end
 if text and text:match('^كتم (%d+)') and ChCheck(msg) then
 local user = text:match('كتم (%d+)')
 if not Constructor(msg) and DevAbs:get(HASSAN.."Abs:Lock:MuteTked"..msg.chat_id_) then 
-send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الكتم والتقيد من قبل المنشئين')
+send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الكتم والتقيد من قبل حسن')
 return false
 end
 if RankChecking(user, msg.chat_id_) then
@@ -5682,7 +5682,7 @@ if dp.first_name_ == false then
 Dev_Abs(msg.chat_id_, msg.id_, 1, "⌁︙حساب المنشئ محذوف", 1, "md")
 return false  
 end
-local UserName = (dp.username_ or "X_A_C_56")
+local UserName = (dp.username_ or "GO_XXO")
 Dev_Abs(msg.chat_id_, msg.id_, 1, "⌁︙منشئ المجموعه ↫ ["..dp.first_name_.."](T.me/"..UserName..")", 1, "md")  
 end,nil)   
 end
@@ -5994,7 +5994,7 @@ if dp.first_name_ == false then
 Dev_Abs(msg.chat_id_, msg.id_, 1, "⌁︙حساب المنشئ محذوف", 1, "md")
 return false  
 end
-local UserName = (dp.username_ or "X_A_C_56")
+local UserName = (dp.username_ or "GO_XXO")
 Dev_Abs(msg.chat_id_, msg.id_, 1, "⌁︙تم رفع منشئ المجموعه ↫ ["..dp.first_name_.."](T.me/"..UserName..")", 1, "md") 
 DevAbs:sadd(HASSAN.."Abs:AbsConstructor:"..msg.chat_id_,dp.id_)
 end,nil)   
@@ -6489,7 +6489,7 @@ newpicid = newpicid:gsub('#msgday',(msgsday or 'لا يوجد'))
 newpicid = newpicid:gsub('#id',(msg.sender_user_id_ or 'لا يوجد'))
 newpicid = newpicid:gsub('#auto',(formsgs(msguser) or 'لا يوجد'))
 newpicid = newpicid:gsub('#stast',(IdRank(msg.sender_user_id_, msg.chat_id_) or 'لا يوجد'))
-newpicid = newpicid:gsub('#Description',(Description or 'لا يوجد'))
+newpicid = newpicid:gsub('#Description',(Description or 'لا يوجد'))ج
 else
 newpicid = "⌁︙"..Description.."\n⌁︙معرفك ↫ ❨ "..username.." ❩\n⌁︙ايديك ↫ ❨ "..msg.sender_user_id_.." ❩\n⌁︙رتبتك ↫ "..IdRank(msg.sender_user_id_, msg.chat_id_).."\n⌁︙رسائلك ↫ ❨ "..user_msgs.." ❩\n⌁︙سحكاتك ↫ ❨ "..edit_msg.." ❩\n⌁︙تفاعلك ↫ "..formsgs(msguser).."\n⌁︙نقاطك ↫ ❨ "..user_nkt.." ❩\n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
 end 
@@ -7101,7 +7101,7 @@ end
 if Admin(msg) then
 if text and text:match("^قفل (.*)$") then
 local LockText = {string.match(text, "^(قفل) (.*)$")}
-if LockText[2] == "الدردشه" then
+if LockText[2] == "الدردشة" then
 if not DevAbs:get(HASSAN..'Abs:Lock:Text'..msg.chat_id_) then
 ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم قفل المنتدى لذا سيحذف البوت اي رسالة مرسلة من الاعضاء لحين فتحه من قبل المشرفين إلى ان نلقاكم بإذن الله تعالى لكم منا كل الشكر والتقدير")  
 DevAbs:set(HASSAN..'Abs:Lock:Text'..msg.chat_id_,true)
@@ -7900,7 +7900,7 @@ local TXTE = "⌁︙اعدادات المجموعه ↫ ⤈\n┉ ≈ ┉ ≈ ┉
 .."⌁︙التكرار ↫ "..flood.."\n"
 .."⌁︙عدد التكرار ↫ "..Flood_Num.."\n"
 .."⌁︙عدد السبام ↫ "..spam_c.."\n"
-.."┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n⌁︙[Source Channel](https://t.me/X_A_C_56)\n"
+.."┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n⌁︙[Source Channel](https://t.me/GO_XXO)\n"
 Dev_Abs(msg.chat_id_, msg.id_, 1, TXTE, 1, 'md')
 end
 end
@@ -8147,7 +8147,7 @@ if Audios.Info == true then
 local Text ='⌁︙تم اختيار المقطع الصوتي لك'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '⌁ HASSAN TeAM .',url="t.me/X_A_C_56"}},
+{{text = '⌁ HASSAN TeAM .',url="t.me/GO_XXO"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice='..URL.escape(Audios.info)..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -9118,7 +9118,7 @@ local text =  [[
 ⌁︙م5 ↫ اوامر المطورين
 ⌁︙م6 ↫ اوامر الاعضاء
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙[Source Channel](https://t.me/X_A_C_56)
+⌁︙[Source Channel](https://t.me/GO_XXO)
 ]] 
 Dev_Abs(msg.chat_id_, msg.id_, 1, (Help or text), 1, 'md')
 end
@@ -9187,7 +9187,7 @@ local text =  [[
 ⌁︙البوتات بالطرد
 ⌁︙البوتات بالتقيد
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙[Source Channel](https://t.me/X_A_C_56)
+⌁︙[Source Channel](https://t.me/GO_XXO)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (Help or text), 1, 'md')
 end end
@@ -9261,7 +9261,7 @@ local text =  [[
 ⌁︙تقييد يوم + عدد الايام
 ⌁︙الغاء تقييد ↫ لالغاء التقييد بالوقت
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙[Source Channel](https://t.me/X_A_C_56)
+⌁︙[Source Channel](https://t.me/GO_XXO)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (Help or text), 1, 'md')
 end end
@@ -9322,7 +9322,7 @@ local text =  [[
 ⌁︙ردود المدير • ردود المطور
 ⌁︙ضافني • حساب العمر • الزخرفه
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙[Source Channel](https://t.me/X_A_C_56)
+⌁︙[Source Channel](https://t.me/GO_XXO)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (Help or text), 1, 'md')
 end end
@@ -9379,7 +9379,7 @@ local text =  [[
 ⌁︙المنشئين الاساسيين 
 ⌁︙حذف جميع الرتب
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙[Source Channel](https://t.me/X_A_C_56)
+⌁︙[Source Channel](https://t.me/GO_XXO)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (Help or text), 1, 'md')
 end end
@@ -9463,7 +9463,7 @@ local text =  [[
 ⌁︙ترحيب البوت • المغادره
 ⌁︙البوت الخدمي • التواصل
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙[Source Channel](https://t.me/X_A_C_56)
+⌁︙[Source Channel](https://t.me/GO_XXO)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (Help or text), 1, 'md')
 end end
@@ -9508,7 +9508,7 @@ local text =  [[
 ⌁︙ايدي • كشف  ↫ بالرد • بالمعرف • بالايدي
 ⌁︙تحويل + بالرد ↫ صوره • ملصق • صوت • بصمه
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙[Source Channel](https://t.me/X_A_C_56)
+⌁︙[Source Channel](https://t.me/GO_XXO)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (Help or text), 1, 'md')
 end
@@ -9540,7 +9540,7 @@ local text =  [[
 ⌁︙رفع • تنزيل ↫ لطام
 ⌁︙اللطامه • حذف اللطامه
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙[Source Channel](https://t.me/X_A_C_56)
+⌁︙[Source Channel](https://t.me/GO_XXO)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, 'md')
 end
@@ -9731,7 +9731,7 @@ else
 Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙لم يتم تعيين قناة الاشتراك الاجباري \n⌁︙ارسل ↫ تعيين قناة الاشتراك للتعيين ', 1, 'md')
 end end end end
 if text == 'القناة' or text == 'قناة السورس' or text == 'قناه السورس' or text == 'قنات السورس' then 
-Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙Channel ↬ @X_A_C_56', 1, 'html')    
+Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙Channel ↬ @GO_XXO', 1, 'html')    
 end 
 if Sudo(msg) then 
 if text == 'معلومات السيرفر' or text == 'السيرفر' then 
