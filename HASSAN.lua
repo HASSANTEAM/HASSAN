@@ -2475,17 +2475,16 @@ Dev_Abs(msg.chat_id_, msg.id_,  1, "⌁︙تم اضافة "..numadded..' نقط�
 DevAbs:del('HASSANTEAM:'..HASSAN..'ids:user'..msg.chat_id_)  
 end
 end
-if text and (text:match("طيز") or text:match("ديس") or text:match("انيج") or text:match("نيج") or text:match("ديوس") or text:match("عير") or text:match("كسختك") or text:match("كسمك") or text:match("كسربك") or text:match("بلاع") or text:match("ابو العيوره") or text:match("منيوج") or text:match("كحبه") or text:match("كحاب") or text:match("الكحبه") or text:match("كسك") or text:match("طيزك") or text:match("كس امك") or text:match("صرم") or text:match("كس اختك")) then
+if text and (text:match("لعن الله المهدي") or text:match("نرجس الزانية") or text:match("لعن الله الشيعة") or text:match("لعن الله الروافض") or text:match("لعن الله السيستاني") or text:match("السيكستاني") or text:match("الشيشاني") or text:match("كسمك") or text:match("لعن الله المراجع") or text:match("كسمكم") or text:match("نرجس القحبه") or text:match("منيوج") or text:match("كحبه") or text:match("كحاب") or text:match("الكحبه") or text:match("نرجس القحبة") or text:match("طيزك") or text:match("كس امك") or text:match("لعنة الله على نرجس") or text:match("كس اختك")) then
 if not DevAbs:get(HASSAN.."Abs:Lock:Fshar"..msg.chat_id_) and not VipMem(msg) then
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
-ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙ممنوع الفشار في المجموعه")  
+ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙ممنوع سب ولعن الرموز هُنا قال النبي صلى الله عليه وسلم ليس المؤمن بالطّعّان، ولا اللّعّان، ولا الفاحش، ولا البذيء وقال أيضا لا تلاعنوا بلعنة الله، ولا بغضبه، ولا بالنار وقال أيضا (إِنَّ اللَّعَّانِينَ لا يَكُونُونَ شُهَدَاءَ وَلا شُفَعَاءَ يَوْمَ الْقِيَامة) اتبعو أخلاق نبيكم محمد صل الله عليه وآله وسلم")  
 end end
-if text and (text:match("ڬ") or text:match("ٺ") or text:match("چ") or text:match("ڇ") or text:match("ڿ") or text:match("ڀ") or text:match("ڎ") or text:match("ݫ") or text:match("ژ") or text:match("ڟ") or text:match("ݜ") or text:match("ڸ") or text:match("پ") or text:match("۴") or text:match("مک") or text:match("زدن") or text:match("عمر منيوج") or text:match("عمر ديوث") or text:match("رضاع الرجال") or text:match("رضاعة") or text:match("مرضعة") or text:match("مرضعه") or text:match("نزل بعائشه") or text:match("نزل بعائشة") or text:match("لعن الله هند") or text:match("اكلت الاكباد هند") or text:match("معاويه يشرب خمر") or text:match("معاوية يشرب عرك") or text:match("يزيد يشرب عرك") or text:match("لعن الله ابوبكر") or text:match("عمر منكوح")) then
+if text and (text:match("صهاك") or text:match("عمر جبان") or text:match("لعن الله نرجس الزانية") or text:match("م") or text:match("ڿ") or text:match("ڀ") or text:match("ڎ") or text:match("ݫ") or text:match("ژ") or text:match("ڟ") or text:match("ݜ") or text:match("ڸ") or text:match("لعن الله المسردب") or text:match("حليب عيوشه") or text:match("حليب") or text:match("ممه") or text:match("عمر منيوج") or text:match("عمر ديوث") or text:match("رضاع الرجال") or text:match("رضاعة") or text:match("مرضعة") or text:match("مرضعه") or text:match("نزل بعائشه") or text:match("نزل بعائشة") or text:match("لعن الله هند") or text:match("اكلت الاكباد هند") or text:match("معاويه يشرب خمر") or text:match("معاوية يشرب عرك") or text:match("يزيد يشرب عرك") or text:match("لعن الله ابوبكر") or text:match("عمر منكوح")) then
 if DevAbs:get(HASSAN.."Abs:Lock:Farsi"..msg.chat_id_) and not VipMem(msg) then
-DeleteMessage(msg.chat_id_,{[0] = msg.id_})
-ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙يا رافضي يا كلب لا تسب تاج رأسك ورأس نرجس المتمتعة يا عفير هذا الذي قمت بسبه نعله يشرفك انت وبلدك يا ابن المتعة يا حيوان")  
+DeleteMessage(msg.chat_id_,{[0] = msg.id_})ممنوع سب ولعن الرموز هُنا قال النبي صلى الله عليه وسلم ليس المؤمن بالطّعّان، ولا اللّعّان، ولا الفاحش، ولا البذيء وقال أيضا لا تلاعنوا بلعنة الله، ولا بغضبه، ولا بالنار وقال أيضا (إِنَّ اللَّعَّانِينَ لا يَكُونُونَ شُهَدَاءَ وَلا شُفَعَاءَ يَوْمَ الْقِيَامة) اتبعو أخلاق نبيكم محمد صل الله عليه وآله وسلم")  
 end end
-if text and (text:match("رضاع الزلم") or text:match("لعنالله ابوبكر") or text:match("لعنت الله ابن صهاك") or text:match(" ابن صهاك منكوح") or text:match("صهاكك") or text:match("رجل نزل بعائشة") or text:match("ممية") or text:match("مميه") or text:match("عمر منكوح") or text:match("لعن الله ال اميه") or text:match("عمر منافق") or text:match("معاويه يحتسي الخمر ") or text:match("يزيد يحتسي الخمر") or text:match("نزل بعائشه") or text:match("مک") or text:match("زدن") or text:match("دخترا") or text:match("دیوث") or text:match("کلیپشن") or text:match("خوششون") or text:match("میدا") or text:match("که") or text:match("بدانیم") or text:match("باید") or text:match("زناشویی") or text:match("آموزش") or text:match("راحتی") or text:match("خسته") or text:match("بیام") or text:match("بپوشم") or text:match("كرمه")) then
+if text and (text:match("رضاع الزلم") or text:match("لعنالله ابوبكر") or text:match("لعنت الله ابن صهاك") or text:match(" ابن صهاك منكوح") or text:match("صهاكك") or text:match("رجل نزل بعائشة") or text:match("ممية") or text:match("مميه") or text:match("عمر منكوح") or text:match("لعن الله ال اميه") or text:match("عمر منافق") or text:match("معاويه يحتسي الخمر ") or text:match("يزيد يحتسي الخمر") or text:match("نزل بعائشه") or text:match("مک") or text:match("زدن") or text:match("دخترا") or text:match("دیوث") or text:match("کلیپشن") or text:match("خوششون") or text:match("میدا") or text:match("که") or text:match("بدانیم") or text:match("باید") or text:match("امك منكوحه") or text:match("نرجوسة") or text:match("لعن الله نرجوسه") or text:match("لعن الله عيوشة") or text:match("لعن الله عيوشه") or text:match("المهدي المسردب") or text:match("المهدي الجبان")) then
 if DevAbs:get(HASSAN.."Abs:Lock:FarsiBan"..msg.chat_id_) and not VipMem(msg) then
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
 ChatKick(msg.chat_id_, msg.sender_user_id_)
@@ -2493,12 +2492,12 @@ end end
 if text and (text:match("لعن الله ال امية") or text:match("رضاع الكبير") or text:match("يزيد يشرب الخمر") or text:match("عمر منافق") or text:match("لعن الله ابن تيمية") or text:match("اكلت الاكباد") or text:match("ابناء رضاع الكبير") or text:match("امكم مرضعة الكبار") or text:match("صهاك") or text:match("عائشة قحبه") or text:match("عائشة كحبه") or text:match("عائشه كحبه") or text:match("عائشة كحبة") or text:match("لعن الله ابو هريرة") or text:match("لعن الله خالد ابن الوليد") or text:match("لعن الله خالد") or text:match("لعن الله ابن تيمية")) then
 if not DevAbs:get(HASSAN.."Abs:Lock:Kfr"..msg.chat_id_) and not VipMem(msg) then
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
-ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙يا رافضي يا كلب لا تسب تاج رأسك ورأس نرجس المتمتعة يا عفير هذا الذي قمت بسبه نعله يشرفك انت وبلدك يا ابن المتعة يا حيوان") 
+ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙ممنوع سب ولعن الرموز هُنا قال النبي صلى الله عليه وسلم ليس المؤمن بالطّعّان، ولا اللّعّان، ولا الفاحش، ولا البذيء وقال أيضا لا تلاعنوا بلعنة الله، ولا بغضبه، ولا بالنار وقال أيضا (إِنَّ اللَّعَّانِينَ لا يَكُونُونَ شُهَدَاءَ وَلا شُفَعَاءَ يَوْمَ الْقِيَامة) اتبعو أخلاق نبيكم محمد صل الله عليه وآله وسلم") 
 end end
 if text and (text:match("بكس عائشة") or text:match("عير بعائشة") or text:match("لعن الله عمر") or text:match("لعن الله عثمان") or text:match("لعن الله ابو بكر") or text:match("لعن الله معاوية") or text:match("لعن الله يزيد") or text:match("لعن الله عائشة") or text:match("لعن الله عائشه") or text:match("لعنت الله على عائشه") or text:match("عيوشه") or text:match("عيوشة") or text:match("لعنت الله على عاىشة")) then
 if not DevAbs:get(HASSAN.."Abs:Lock:Taf"..msg.chat_id_) and not VipMem(msg) then
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
-ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙يا رافضي يا كلب لا تسب تاج رأسك ورأس نرجس المتمتعة يا عفير هذا الذي قمت بسبه نعله يشرفك انت وبلدك يا ابن المتعة يا حيوان") 
+ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙ممنوع سب ولعن الرموز هُنا قال النبي صلى الله عليه وسلم ليس المؤمن بالطّعّان، ولا اللّعّان، ولا الفاحش، ولا البذيء وقال أيضا لا تلاعنوا بلعنة الله، ولا بغضبه، ولا بالنار وقال أيضا (إِنَّ اللَّعَّانِينَ لا يَكُونُونَ شُهَدَاءَ وَلا شُفَعَاءَ يَوْمَ الْقِيَامة) اتبعو أخلاق نبيكم محمد صل الله عليه وآله وسلم") 
 end end
 if SecondSudo(msg) then
 if text == 'جلب نسخه الكروبات' and ChCheck(msg) or text == 'جلب نسخه احتياطيه' and ChCheck(msg) then
@@ -2690,21 +2689,21 @@ end
 if ChatType == 'sp' or ChatType == 'gp'  then
 if text == 'بوت' or text == 'بوتت' then 
 NameBot = (DevAbs:get(HASSAN..'Abs:NameBot') or 'اهل البيت بين الاتباع والابتداع')
-local HASSANTEAM = {"لتكول بوت اسمي "..NameBot.." 😒🔪","اسمي القميل "..NameBot.." 😚♥️","عندي اسم تره 😒💔","صيحولي "..NameBot.." كافي بوت 😒🔪","انت البوت لك 😒💔"} 
+local HASSANTEAM = {"لتكول بوت اسمي "..NameBot.." 😒🔪","اسمي "..NameBot.." 😚♥️","عندي اسم 😒💔","نادوني "..NameBot.."  بوت 😒🔪","انت البوت لك 😒💔"} 
 DevAbs2 = math.random(#HASSANTEAM) 
 Dev_Abs(msg.chat_id_, msg.id_, 1, HASSANTEAM[DevAbs2] , 1, 'html') 
 return false
 end
 if text == 'اسم البوت' or text == 'البوت شنو اسمه' or text == 'شسمه البوت' or text == 'البوت شسمه' then
 NameBot = (DevAbs:get(HASSAN..'Abs:NameBot') or 'اهل البيت بين الاتباع والابتداع') 
-local HASSANTEAM = {"اسمي القميل "..NameBot.." 😚♥️","هلاا يروحيي وياكك "..NameBot.." 😻♥️"} 
+local HASSANTEAM = {"اسمي القميل "..NameBot.." 😚♥️","تفضل البوت شغال"..NameBot.." 😻♥️"} 
 DevAbs2 = math.random(#HASSANTEAM) 
 Dev_Abs(msg.chat_id_, msg.id_, 1, HASSANTEAM[DevAbs2] , 1, 'html') 
 return false
 end
 if text and text == (DevAbs:get(HASSAN..'Abs:NameBot') or 'اهل البيت بين الاتباع والابتداع') then 
 NameBot = (DevAbs:get(HASSAN..'Abs:NameBot') or 'اهل البيت بين الاتباع والابتداع')
-local namebot = {'😸♥️ هلا كلبي وياك '..NameBot..' تفضل','ترةه مصختهاا احجيي شرايد 😕😒💔','اطلقق واحدد يصيح '..NameBot..' 😻♥️','خبصتت امنةة شتريدد عااد 🤧😒💔'} 
+local namebot = {'😸♥️ تفضل معك انا موجود '..NameBot..' تفضل','نعم 😕😒💔','تفضل '..NameBot..' 😻♥️','حي الله 🤧😒💔'} 
 name = math.random(#namebot) 
 Dev_Abs(msg.chat_id_, msg.id_, 1, namebot[name] , 1, 'html') 
 return false 
@@ -5793,7 +5792,7 @@ Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, "md")
 end
 if text == "المهتدين" and ChCheck(msg) then
 local List = DevAbs:smembers(HASSAN..'User:Don12:'..msg.chat_id_)
-text = "⌁︙قائمة المهتدين 😹💔 ↫ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
+text = "⌁︙قائمة المهتدين 💔 ↫ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
 for k,v in pairs(List) do
 local username = DevAbs:get(HASSAN..'Save:UserName'..v)
 if username then
@@ -5808,7 +5807,7 @@ Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, "md")
 end
 if text == "ابناء نرجس الزانية" and ChCheck(msg) or text == "الشيعه" and ChCheck(msg) then
 local List = DevAbs:smembers(HASSAN..'User:Don124:'..msg.chat_id_)
-text = "⌁︙قائمة الشيعه 😹💔 ↫ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
+text = "⌁︙قائمة أبناء نرجس الزانية 😹💔 ↫ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
 for k,v in pairs(List) do
 local username = DevAbs:get(HASSAN..'Save:UserName'..v)
 if username then
