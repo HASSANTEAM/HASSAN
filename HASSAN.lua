@@ -7103,10 +7103,10 @@ if text and text:match("^قفل (.*)$") then
 local LockText = {string.match(text, "^(قفل) (.*)$")}
 if LockText[2] == "الدردشة" then
 if not DevAbs:get(HASSAN..'Abs:Lock:Text'..msg.chat_id_) then
-ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم قفل الدردشة")  
+ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم قفل المنتدى لذا سيحذف البوت اي رسالة مرسلة من الاعضاء لحين فتحه من قبل المشرفين إلى ان نلقاكم بإذن الله تعالى لكم منا كل الشكر والتقدير")  
 DevAbs:set(HASSAN..'Abs:Lock:Text'..msg.chat_id_,true)
 else
-Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙الدردشة بالفعل مقفله في المجموعه', 1, 'md')
+Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙الدردشة بالفعل مقفله', 1, 'md')
 end
 end
 if LockText[2] == "الاونلاين" then
@@ -7284,7 +7284,7 @@ if text and text:match("^فتح (.*)$") then
 local UnLockText = {string.match(text, "^(فتح) (.*)$")}
 if UnLockText[2] == "الدردشة" then
 if DevAbs:get(HASSAN..'Abs:Lock:Text'..msg.chat_id_) then
-ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم فتح الدردشة")  
+ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم فتح المنتدى إدارة المنتدى")  
 DevAbs:del(HASSAN..'Abs:Lock:Text'..msg.chat_id_)
 else
 Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙الدردشة بالفعل مفتوحه في المجموعه', 1, 'md')
@@ -7469,7 +7469,7 @@ LockList ={'Abs:Lock:Links','Abs:Lock:Contact','Abs:Lock:Forwards','Abs:Lock:Vid
 for i,Lock in pairs(LockList) do
 DevAbs:set(HASSAN..Lock..msg.chat_id_,true)
 end
-ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم قفل التفليش")  
+ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم تفعيل الحماية القصوى")  
 end
 end
 if text and text:match("^فتح التفليش$") then
