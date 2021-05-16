@@ -727,7 +727,7 @@ MsgText = 'متفاعل'
 elseif tonumber(msgs) < 2000 then 
 MsgText = 'قمة التفاعل' 
 elseif tonumber(msgs) < 3000 then 
-MsgText = 'ملك التفاعل'  
+MsgText = 'التفاعل'  
 elseif tonumber(msgs) < 4000 then 
 MsgText = 'اسطورة التفاعل' 
 elseif tonumber(msgs) < 5000 then 
@@ -739,9 +739,9 @@ MsgText = 'خيالي'
 elseif tonumber(msgs) < 8000 then 
 MsgText = 'رب التفاعل' 
 elseif tonumber(msgs) < 9000 then 
-MsgText = 'كافر بالتفاعل' 
+MsgText = 'بالتفاعل' 
 elseif tonumber(msgs) < 10000000000 then 
-MsgText = "معلك لربك" 
+MsgText = "معلك" 
 end 
 return MsgText
 end
@@ -2475,17 +2475,17 @@ Dev_Abs(msg.chat_id_, msg.id_,  1, "⌁︙تم اضافة "..numadded..' نقط�
 DevAbs:del('HASSANTEAM:'..HASSAN..'ids:user'..msg.chat_id_)  
 end
 end
-if text and (text:match("طيز") or text:match("ديس") or text:match("انيج") or text:match("نيج") or text:match("ديوس") or text:match("عير") or text:match("كسختك") or text:match("كسمك") or text:match("كسربك") or text:match("بلاع") or text:match("ابو العيوره") or text:match("منيوج") or text:match("كحبه") or text:match("كحاب") or text:match("الكحبه") or text:match("كسك") or text:match("طيزك") or text:match("كس امك") or text:match("صرم") or text:match("كس اختك")) then
+if text and (text:match("طيز") or text:match("ديس") or text:match("انيج") or text:match("نيج") or text:match("ديوس") or text:match("عير") or text:match("كسختك") or text:match("كسمك") or text:match("لعن الله نرجس") or text:match("لعنه الله على نرجس") or text:match("لعنة الله على نرجس") or text:match("منيوج") or text:match("كحبه") or text:match("لعن") or text:match("الكحبه") or text:match("ممه") or text:match("طيزك") or text:match("كس امك") or text:match("نرجوسه") or text:match("كس اختك")) then
 if not DevAbs:get(HASSAN.."Abs:Lock:Fshar"..msg.chat_id_) and not VipMem(msg) then
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
 ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙ممنوع سب ولعن الرموز هنا قال النبي صلى الله عليه وسلم ليس المؤمن بالطعان ولا اللعان ولا الفاحش ولا البذيء وقال أيضا لا تلاعنوا بلعنة الله ولا بغضبه ولا بالنار وقال أيضا إن اللعانين لا يكونون شهداء ولا شفعاء يوم القيامة اتبعو أخلاق نبيكم محمد صل الله عليه وآله وسلم")  
 end end
-if text and (text:match("ڬ") or text:match("ٺ") or text:match("چ") or text:match("ڇ") or text:match("ڿ") or text:match("ڀ") or text:match("ڎ") or text:match("ݫ") or text:match("ژ") or text:match("ڟ") or text:match("ݜ") or text:match("ڸ") or text:match("پ") or text:match("۴") or text:match("مک") or text:match("زدن") or text:match("عمر منيوج") or text:match("عمر ديوث") or text:match("رضاع الرجال") or text:match("رضاعة") or text:match("مرضعة") or text:match("مرضعه") or text:match("نزل بعائشه") or text:match("نزل بعائشة") or text:match("لعن الله هند") or text:match("اكلت الاكباد هند") or text:match("معاويه يشرب خمر") or text:match("معاوية يشرب عرك") or text:match("يزيد يشرب عرك") or text:match("لعن الله ابوبكر") or text:match("عمر منكوح")) then
+if text and (text:match("غبي") or text:match("مطي") or text:match("لعنكم") or text:match("زانية") or text:match("أمكم منكوحه") or text:match("امكم منكوحه") or text:match("عيوش") or text:match("صهوكي") or text:match("خرية") or text:match("خريه") or text:match("زربة") or text:match("زربه") or text:match("لعنه") or text:match("لعنة") or text:match("خرب") or text:match("كسعرضك") or text:match("عمر منيوج") or text:match("عمر ديوث") or text:match("رضاع الرجال") or text:match("رضاعة") or text:match("مرضعة") or text:match("مرضعه") or text:match("نزل بعائشه") or text:match("نزل بعائشة") or text:match("لعن الله هند") or text:match("اكلت الاكباد هند") or text:match("معاويه يشرب خمر") or text:match("معاوية يشرب عرك") or text:match("يزيد يشرب عرك") or text:match("لعن الله ابوبكر") or text:match("عمر منكوح")) then
 if DevAbs:get(HASSAN.."Abs:Lock:Farsi"..msg.chat_id_) and not VipMem(msg) then
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
 ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙ممنوع سب ولعن الرموز هنا قال النبي صلى الله عليه وسلم ليس المؤمن بالطعان ولا اللعان ولا الفاحش ولا البذيء وقال أيضا لا تلاعنوا بلعنة الله ولا بغضبه ولا بالنار وقال أيضا إن اللعانين لا يكونون شهداء ولا شفعاء يوم القيامة اتبعو أخلاق نبيكم محمد صل الله عليه وآله وسلم")  
 end end
-if text and (text:match("رضاع الزلم") or text:match("لعنالله ابوبكر") or text:match("لعنت الله ابن صهاك") or text:match(" ابن صهاك منكوح") or text:match("صهاكك") or text:match("رجل نزل بعائشة") or text:match("ممية") or text:match("مميه") or text:match("عمر منكوح") or text:match("لعن الله ال اميه") or text:match("عمر منافق") or text:match("معاويه يحتسي الخمر ") or text:match("يزيد يحتسي الخمر") or text:match("نزل بعائشه") or text:match("مک") or text:match("زدن") or text:match("دخترا") or text:match("دیوث") or text:match("کلیپشن") or text:match("خوششون") or text:match("میدا") or text:match("که") or text:match("بدانیم") or text:match("باید") or text:match("زناشویی") or text:match("آموزش") or text:match("راحتی") or text:match("خسته") or text:match("بیام") or text:match("بپوشم") or text:match("كرمه")) then
+if text and (text:match("رضاع الزلم") or text:match("لعنالله ابوبكر") or text:match("لعنت الله ابن صهاك") or text:match(" ابن صهاك منكوح") or text:match("صهاكك") or text:match("رجل نزل بعائشة") or text:match("ممية") or text:match("مميه") or text:match("عمر منكوح") or text:match("لعن الله ال اميه") or text:match("عمر منافق") or text:match("معاويه يحتسي الخمر ") or text:match("يزيد يحتسي الخمر") or text:match("نزل بعائشه") or text:match("كسمكم") or text:match("نرجوسة") or text:match("المهدي زنديق") or text:match("رضاع") or text:match("نرجوسه") or text:match("لعن الله مهدي الشيعة") or text:match("لعن الله السيستاني") or text:match("سيكستاني") or text:match("قحبة") or text:match("قحبه") or text:match("القحبه") or text:match("القحبة") or text:match("نرجس القحبه") or text:match("المتمتعة نرجوسة") or text:match("نرجس المتمتعة") or text:match("نزل بعائشة") or text:match("نزل بعائشه")) then
 if DevAbs:get(HASSAN.."Abs:Lock:FarsiBan"..msg.chat_id_) and not VipMem(msg) then
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
 ChatKick(msg.chat_id_, msg.sender_user_id_)
