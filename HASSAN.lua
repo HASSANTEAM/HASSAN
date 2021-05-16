@@ -7103,10 +7103,10 @@ if text and text:match("^قفل (.*)$") then
 local LockText = {string.match(text, "^(قفل) (.*)$")}
 if LockText[2] == "الدردشة" then
 if not DevAbs:get(HASSAN..'Abs:Lock:Text'..msg.chat_id_) then
-ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم قفل الدردشة")  
+ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم قفل المنتدى لذا سيحذف البوت اي رسالة مرسلة من الاعضاء لحين فتحه من قبل المشرفين إلى ان نلقاكم بإذن الله تعالى لكم منا كل الشكر والتقدير")  
 DevAbs:set(HASSAN..'Abs:Lock:Text'..msg.chat_id_,true)
 else
-Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙الدردشة بالفعل مقفله في المجموعه', 1, 'md')
+Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙الدردشة بالفعل مقفله في المنتدى لا تلح بارك الله فيك', 1, 'md')
 end
 end
 if LockText[2] == "الاونلاين" then
@@ -7284,10 +7284,10 @@ if text and text:match("^فتح (.*)$") then
 local UnLockText = {string.match(text, "^(فتح) (.*)$")}
 if UnLockText[2] == "الدردشة" then
 if DevAbs:get(HASSAN..'Abs:Lock:Text'..msg.chat_id_) then
-ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم فتح الدردشة")  
+ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم فتح المنتدى إدارة المنتدى الأن اصبح بأمكانكم الكلام نعتذر على قفل المنتدى")  
 DevAbs:del(HASSAN..'Abs:Lock:Text'..msg.chat_id_)
 else
-Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙الدردشة بالفعل مفتوحه في المجموعه', 1, 'md')
+Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙الدردشة مفتوحه في المجموعه لعل الشخص الذي لا يستطيع التكلم مكتوم او الدردشة مقفوله من بوت أخر وأن كان مكتوم اكتب الغاء الكتم', 1, 'md')
 end
 end
 if UnLockText[2] == "الصور" then
@@ -9771,7 +9771,7 @@ tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},function(arg,
 local absname = '⌁︙العضو ↫ ['..CatchName(dp.first_name_,15)..'](tg://user?id='..dp.id_..')'
 local absid = '⌁︙ايديه ↫ `'..dp.id_..'`'
 local abstext = '⌁︙قام بالتعديل على '..Media
-local abstxt = '┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n⌁︙تعالو يامشرفين اكو مخرب'
+local abstxt = '┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n⌁︙تعالو يامشرفين اعتقد يوجد مخرب لان قام بالتعديل على الصور'
 tdcli_function ({ID = "GetChannelMembers",channel_id_ = msg.chat_id_:gsub("-100",""),filter_ = {ID = "ChannelMembersAdministrators"},offset_ = 0,limit_ = 100},function(arg,abbas) 
 local admins = abbas.members_  
 text = '\n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n'
