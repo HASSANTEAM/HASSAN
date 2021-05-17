@@ -7460,7 +7460,7 @@ end
 end
 end
 end
-if text and text:match("^قفل التفليش$") or text and text:match("^تفعيل الحمايه القصوى$") then
+if text and text:match("^قفل التفليش$") or text and text:match("^تفعيل الحماية القصوى$") then
 if not Constructor(msg) then
 Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙للمنشئين فقط', 1, 'md')
 else
@@ -7472,7 +7472,7 @@ end
 ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم تفعيل الحماية القصوى")  
 end
 end
-if text and text:match("^فتح التفليش$") then
+if text and text:match("^تعطيل الحماية القصوى$") then
 if not Constructor(msg) then
 Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙للمنشئين فقط', 1, 'md')
 else
@@ -7481,7 +7481,7 @@ UnLockList ={'Abs:Lock:Links','Abs:Lock:Contact','Abs:Lock:Forwards','Abs:Lock:V
 for i,UnLock in pairs(UnLockList) do
 DevAbs:del(HASSAN..UnLock..msg.chat_id_)
 end
-ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم فتح التفليش")  
+ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⌁︙تم تعطيل الحماية القصوى")  
 end
 end
 if text and text:match("^قفل الكل$") then
