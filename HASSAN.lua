@@ -727,7 +727,7 @@ MsgText = 'متفاعل'
 elseif tonumber(msgs) < 2000 then 
 MsgText = 'قمة التفاعل' 
 elseif tonumber(msgs) < 3000 then 
-MsgText = 'ملك التفاعل'  
+MsgText = 'متفاعل جداً'  
 elseif tonumber(msgs) < 4000 then 
 MsgText = 'اسطورة التفاعل' 
 elseif tonumber(msgs) < 5000 then 
@@ -737,11 +737,11 @@ MsgText = 'يجدح جدح'
 elseif tonumber(msgs) < 7000 then 
 MsgText = 'خيالي' 
 elseif tonumber(msgs) < 8000 then 
-MsgText = 'رب التفاعل' 
+MsgText = 'التفاعل' 
 elseif tonumber(msgs) < 9000 then 
-MsgText = 'كافر بالتفاعل' 
+MsgText = 'قوي بالتفاعل' 
 elseif tonumber(msgs) < 10000000000 then 
-MsgText = "معلك لربك" 
+MsgText = "معلك" 
 end 
 return MsgText
 end
@@ -1619,7 +1619,7 @@ end
 end
 if text and text:match("^(.*)$") then
 local DelAllRed = DevAbs:get(HASSAN.."Abs:Add:AllRed"..msg.sender_user_id_)
-if DelAllRed == 'DelAllRed' then
+if DelAllRed == 'DelAllRed'
 Dev_Abs(msg.chat_id_, msg.id_, 1,'⌁︙الكلمه ↫ '..msg.content_.text_..' تم حذفها',  1, "html")
 DevAbs:del(HASSAN.."Abs:Add:AllRed"..msg.sender_user_id_)
 DevAbs:del(HASSAN.."Abs:Gif:AllRed"..msg.content_.text_)
@@ -2480,7 +2480,7 @@ if not DevAbs:get(HASSAN.."Abs:Lock:Fshar"..msg.chat_id_) and not VipMem(msg) th
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
 ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙ممنوع سب ولعن الرموز هنا قال النبي صل الله عليه وسلم ليس المؤمن بالطعان ولا اللعان ولا الفاحش ولا البذيء وقال أيضا لا تلاعنوا بلعنة الله ولا بغضبه ولا بالنار وقال أيضا إن اللعانين لا يكونون شهداء ولا شفعاء يوم القيامة اتبعو أخلاق نبيكم محمد صل الله عليه وآله وسلم")  
 end end
-if text and (text:match("ڬ") or text:match("ٺ") or text:match("چ") or text:match("ڇ") or text:match("ڿ") or text:match("ڀ") or text:match("ڎ") or text:match("ݫ") or text:match("ژ") or text:match("ڟ") or text:match("ݜ") or text:match("ڸ") or text:match("پ") or text:match("۴") or text:match("مک") or text:match("زدن") or text:match("عمر منيوج") or text:match("عمر ديوث") or text:match("رضاع الرجال") or text:match("رضاعة") or text:match("مرضعة") or text:match("مرضعه") or text:match("نزل بعائشه") or text:match("نزل بعائشة") or text:match("لعن الله هند") or text:match("اكلت الاكباد هند") or text:match("معاويه يشرب خمر") or text:match("معاوية يشرب عرك") or text:match("يزيد يشرب عرك") or text:match("لعن الله ابوبكر") or text:match("عمر منكوح")) then
+if text and (text:match("عيوش") or text:match("عيوشه") or text:match("عيوشة") or text:match("منكوح") or text:match("منكوحه") or text:match("نكح") or text:match("ڎ") or text:match("ݫ") or text:match("ژ") or text:match("ڟ") or text:match("ݜ") or text:match("ڸ") or text:match("پ") or text:match("۴") or text:match("مک") or text:match("زدن") or text:match("عمر منيوج") or text:match("عمر ديوث") or text:match("رضاع الرجال") or text:match("رضاعة") or text:match("مرضعة") or text:match("مرضعه") or text:match("نزل بعائشه") or text:match("نزل بعائشة") or text:match("لعن الله هند") or text:match("اكلت الاكباد هند") or text:match("معاويه يشرب خمر") or text:match("معاوية يشرب عرك") or text:match("يزيد يشرب عرك") or text:match("لعن الله ابوبكر") or text:match("عمر منكوح")) then
 if DevAbs:get(HASSAN.."Abs:Lock:Farsi"..msg.chat_id_) and not VipMem(msg) then
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
 ReplyStatus(msg,msg.sender_user_id_,"WrongWay","⌁︙ممنوع سب ولعن الرموز هنا قال النبي صل الله عليه وسلم ليس المؤمن بالطعان ولا اللعان ولا الفاحش ولا البذيء وقال أيضا لا تلاعنوا بلعنة الله ولا بغضبه ولا بالنار وقال أيضا إن اللعانين لا يكونون شهداء ولا شفعاء يوم القيامة اتبعو أخلاق نبيكم محمد صل الله عليه وآله وسلم")  
@@ -3600,7 +3600,7 @@ end
 if Admin(msg) then
 if text == "تاك للكل" and ChCheck(msg) then
 function TagAll(dp1,dp2)
-local text = "⌁︙وينكم يالربع \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
+local text = "⌁︙أين انتم \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
 i = 0
 for k, v in pairs(dp2.members_) do
 i = i + 1
@@ -5077,7 +5077,7 @@ end
 if text and (text:match('^تقييد (%d+)') or text:match('^تقيد (%d+)')) and ChCheck(msg) then
 local user = text:match('تقييد (%d+)') or text:match('تقيد (%d+)')
 if not Constructor(msg) and DevAbs:get(HASSAN.."Abs:Lock:MuteTked"..msg.chat_id_) then 
-send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الكتم والتقيد من قبل المنشئين')
+send(msg.chat_id_, msg.id_,'⌁︙لقد تم تعطيل الكتم والتقيد من قبل حسن')
 return false
 end
 if RankChecking(user, msg.chat_id_) then
