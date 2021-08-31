@@ -5388,19 +5388,19 @@ getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
 end end
 --     Source HASSAN     --
 if msg.reply_to_message_id_ ~= 0 then
-if text and text:match("^رفع شيعي$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+if text and text:match("^رفع كلب حوأبي$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
 function donky_by_reply(extra, result, success)
-ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم رفعه شيعي بنجاح") 
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم رفعه كلب من كلاب الحوأب النابحين على ام المؤمنين رضي الله عنها بنجاح") 
 DevAbs:sadd(HASSAN..'User:Don124:'..msg.chat_id_, result.sender_user_id_)
 end
 getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
 end end
 --     Source HASSAN     --
 if msg.reply_to_message_id_ ~= 0  then
-if text and text:match("^تنزيل شيعي$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
+if text and text:match("^تنزيل كلب حوأب$") and not DevAbs:get(HASSAN..'Abs:Lock:Stupid'..msg.chat_id_) and ChCheck(msg) then
 function donky_by_reply(extra, result, success)
 DevAbs:srem(HASSAN..'User:Don124:'..msg.chat_id_, result.sender_user_id_)
-ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم تنزيله شيعي بنجاح") 
+ReplyStatus(msg,result.sender_user_id_,"Reply","⌁︙تم تنزيله من كلاب الحوأب بنجاح") 
 end
 getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
 end end
@@ -5806,9 +5806,9 @@ text = "⌁︙*لا يوجد مهتدين* 😹💔"
 end
 Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, "md")
 end
-if text == "الشيعة" and ChCheck(msg) or text == "الشيعه" and ChCheck(msg) then
+if text == "كلاب الحوأب" and ChCheck(msg) or text == "النابحين على ام المؤمنين" and ChCheck(msg) then
 local List = DevAbs:smembers(HASSAN..'User:Don124:'..msg.chat_id_)
-text = "⌁︙قائمة الشيعه 😹💔 ↫ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
+text = "⌁︙قائمة كلاب الحوأب 😹💔 ↫ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
 for k,v in pairs(List) do
 local username = DevAbs:get(HASSAN..'Save:UserName'..v)
 if username then
@@ -5817,7 +5817,7 @@ else
 text = text..""..k.."~ : `"..v.."`\n"
 end end
 if #List == 0 then
-text = "⌁︙*لا يوجد شيعه هنا* 😹💔"
+text = "⌁︙*لا يوجد كلاب الحوأب هنا* 😹💔"
 end
 Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, "md")
 end
